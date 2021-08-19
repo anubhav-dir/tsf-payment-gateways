@@ -1,0 +1,74 @@
+body,
+html {
+    height: 100%;
+}
+
+#home-bg {
+    background-color: red;
+    height: 100%;
+    background: url("img/charity.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#home-cover-box {
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+
+#home-cover-box-inner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#home-heading h3 {
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 20px 0 20px 0;
+}
+
+#home-heading p {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 20px 0 20px 0;
+}
+
+#about-img {
+    background-color: red;
+    height: 100%;
+    background: url("img/bg3.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    /* border: 5px solid black; */
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px;
+}
+
+#about-bg {
+    background-color: red;
+    height: 100%;
+    background: url("img/bg-Img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#contact-bg {
+    background-color: red;
+    height: 100%;
+    background: url("img/contact-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
